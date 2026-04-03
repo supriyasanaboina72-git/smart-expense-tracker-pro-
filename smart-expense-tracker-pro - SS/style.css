@@ -1,0 +1,12 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
+body{background:linear-gradient(135deg,#667eea,#764ba2);height:100vh;display:flex;justify-content:center;align-items:center;}
+.app{background:#fff;padding:25px;border-radius:15px;width:350px;box-shadow:0 10px 30px rgba(0,0,0,0.2);}
+h1{text-align:center;margin-bottom:15px;}
+.card input,.card select,.card button{width:100%;padding:10px;margin:6px 0;border-radius:8px;border:1px solid #ddd;}
+button{background:#667eea;color:#fff;border:none;cursor:pointer;}
+button:hover{background:#5a67d8;}
+.summary{margin:15px 0;display:flex;justify-content:space-between;font-weight:bold;}
+#list li{background:#f7f7f7;padding:10px;margin:5px 0;border-radius:8px;display:flex;justify-content:space-between;}
+.income{border-left:5px solid green;}
+.expense{border-left:5px solid red;}
+.delete-btn{background:red;color:#fff;border:none;padding:5px 8px;border-radius:5px;}
